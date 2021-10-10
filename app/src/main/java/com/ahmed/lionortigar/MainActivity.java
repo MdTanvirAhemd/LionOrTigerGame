@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
                     if (currentPlayer == Player.ONE) {
                         Toast.makeText(this, "player TWO is the winner", Toast.LENGTH_LONG).show();
-                    } else {
+                    } else if (currentPlayer == Player.TWO) {
                         Toast.makeText(this, "player ONE is the winner", Toast.LENGTH_LONG).show();
 
                     }
